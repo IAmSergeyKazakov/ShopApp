@@ -26,6 +26,8 @@ MainWindow::~MainWindow()
 
     delete ui;
     ui = nullptr;
+
+    db.close();
 }
 
 
